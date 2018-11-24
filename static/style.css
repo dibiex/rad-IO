@@ -1,0 +1,23 @@
+body {
+
+}
+.header{
+  border-color: black;
+  height: 300px;
+  text-align: center;
+  margin: 100px;
+
+}
+
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
+    background-color: #65d8cf !important;
+    border-color: #65d8cf !important;
+}
+
+.text-center {
+   text-align:center
+}
+
+
+
+
