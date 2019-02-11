@@ -6,7 +6,7 @@ import subprocess
 from check_one import predict
 from werkzeug.utils import secure_filename
 uploaded = False
-UPLOAD_FOLDER = '/home/top/proiecte/hacktotehfuture/flask/upload'
+UPLOAD_FOLDER = './upload'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
